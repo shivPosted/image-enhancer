@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+}
+
+.image-selector {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 60%;
+  background-color: white;
+  padding: 1rem;
+}
+.image-selector > div {
+  border: 3px dotted #ccc;
+  padding-block: 1.6rem;
+  border-radius: 9px;
+  color: gray;
+}
+input[type="file"] {
+  display: none;
+}
